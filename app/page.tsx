@@ -1,4 +1,4 @@
-import Body from './Portfolio-Components/PorfolioBody'
+import Body from './PortfolioBody'
 
 export default function Home() {
   return (
