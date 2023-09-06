@@ -141,60 +141,7 @@ export default function Body() {
                         </div>
                     </div>
 
-                    <div className="bg-gray-50 px-8 py-10 rounded-md">
-                        <h4 className="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
-
-                        <p className="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur   adipiscing elit, sed do eiusmod tempor   incididunt ut labore et dolore magna aliqua.</p>
-
-                        <div className="relative">
-                            <h6 className="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
-                            <span className="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
-                        </div>
-                    </div>
-
-                    <div className="bg-gray-50 px-8 py-10 rounded-md">
-                        <h4 className="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
-
-                        <p className="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur   adipiscing elit, sed do eiusmod tempor   incididunt ut labore et dolore magna aliqua.</p>
-
-                        <div className="relative">
-                            <h6 className="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
-                            <span className="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
-                        </div>
-                    </div>
-
-                    <div className="bg-gray-50 px-8 py-10 rounded-md">
-                        <h4 className="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
-
-                        <p className="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur   adipiscing elit, sed do eiusmod tempor   incididunt ut labore et dolore magna aliqua.</p>
-
-                        <div className="relative">
-                            <h6 className="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
-                            <span className="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
-                        </div>
-                    </div>
-
-                    <div className="bg-gray-50 px-8 py-10 rounded-md">
-                        <h4 className="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
-
-                        <p className="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur   adipiscing elit, sed do eiusmod tempor   incididunt ut labore et dolore magna aliqua.</p>
-
-                        <div className="relative">
-                            <h6 className="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
-                            <span className="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
-                        </div>
-                    </div>
-
-                    <div className="bg-gray-50 px-8 py-10 rounded-md">
-                        <h4 className="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
-
-                        <p className="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur   adipiscing elit, sed do eiusmod tempor   incididunt ut labore et dolore magna aliqua.</p>
-
-                        <div className="relative">
-                            <h6 className="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
-                            <span className="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </div>
