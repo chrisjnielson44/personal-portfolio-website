@@ -280,7 +280,7 @@ export default function Body() {
         </section>
 <section  className="py-5 md:py-16">
 
-<div  className="container max-w-screen-xl mx-auto px-4 h-screen">
+<div  className="container max-w-screen-xl mx-auto px-4">
 
     <h1  className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Experience</h1>
     <div className="mb-8 h-1 bg-gray-700"></div>
@@ -313,14 +313,13 @@ export default function Body() {
            
         </div>
     </div>
-        <div  className="bg-gray-100 py-10 flex items-bottom justify-bottom">
+        <div  className="bg-gray-100 py-5 flex items-bottom justify-bottom">
 
+                
     <div  className="container max-w-screen-xl mx-auto px-4 place-items-baseline">
 
         <div  className="text-center ">
             <h1  className="font-medium text-gray-700 text-4xl md:text-5xl mb-5">Testimonial</h1>
-
-            <p  className="font-normal text-gray-400 text-md md:text-lg mb-20">I’m not currently taking on new client work but feel free to contact me for any   other inquiries.</p>
 
             <div  className="flex items-center justify-center space-x-8">
                 
