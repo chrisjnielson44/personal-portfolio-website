@@ -113,7 +113,7 @@ export default function Body() {
                 <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4">Personal Porfolio Website</h4> 
             </a>
             <h3 className="font-medium text-gray-700 text-sm mb-5">
-                    I've created a static personal portfolio website using Next.js. This site showcases my skills, projects, and achievements with a clean and user-friendly design. It &apos;s optimized for performance and provides a professional online presence to highlight my talents and accomplishments.</h3>
+                    I've created a static personal portfolio website using Next.js. This site showcases my skills, projects, and achievements with a clean and user-friendly design. It&apos;s optimized for performance and provides a professional online presence to highlight my talents and accomplishments.</h3>
             <p className="text-gray-700 text-sm">
                 <span className="bg-gray-200 text-gray-700 px-2 py-1  rounded-lg">
                     Next.js
