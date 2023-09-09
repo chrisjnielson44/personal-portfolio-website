@@ -113,7 +113,7 @@ export default function Body() {
                 <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4">Personal Porfolio Website</h4> 
             </a>
             <h3 className="font-medium text-gray-700 text-sm mb-5">
-                    I've created a static personal portfolio website using Next.js. This site showcases my skills, projects, and achievements with a clean and user-friendly design. It's optimized for performance and provides a professional online presence to highlight my talents and accomplishments.</h3>
+                    I've created a static personal portfolio website using Next.js. This site showcases my skills, projects, and achievements with a clean and user-friendly design. It &apos;s optimized for performance and provides a professional online presence to highlight my talents and accomplishments.</h3>
             <p className="text-gray-700 text-sm">
                 <span className="bg-gray-200 text-gray-700 px-2 py-1  rounded-lg">
                     Next.js
@@ -145,7 +145,7 @@ export default function Body() {
             <a href="https://github.com/chrisjnielson44/AI-Chatbot" target="_blank" rel="noopener noreferrer" className="">           
                 <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4">AI Chatbot</h4>
             </a> 
-            <h3 className="font-medium text-gray-700 text-sm mb-5">AI chatbot developed using Python and OpenAI's GPT-3.5 architecture. The chatbot is designed to remember conversations with the user and learn from them, allowing for more personalized and natural interactions.</h3>
+            <h3 className="font-medium text-gray-700 text-sm mb-5">AI chatbot developed using Python and OpenAI&apos;s GPT-3.5 architecture. The chatbot is designed to remember conversations with the user and learn from them, allowing for more personalized and natural interactions.</h3>
             <p className="text-gray-700 text-sm pt-5">
                 <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded-lg">
                     Python
@@ -192,7 +192,7 @@ export default function Body() {
             <a href="https://github.com/chrisjnielson44/wordOfTheDay-bot" target="_blank" rel="noopener noreferrer" className="">       
                 <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4">Word of The Day</h4> 
             </a>
-            <h3 className="font-medium text-gray-700 text-sm mb-5">.</h3>
+            <h3 className="font-medium text-gray-700 text-sm mb-5">The Word of the Day Bot is a Python-based project that delivers a daily dose of vocabulary enrichment through SMS. This bot sends subscribers a new word along with its definition every day, helping users expand their vocabulary effortlessly. It&apos;s a simple yet effective tool designed to promote continuous learning and improve language skills.</h3>
             <p className="text-gray-700 text-sm pt-2">
                 <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded-lg">
                     Python
@@ -262,6 +262,13 @@ export default function Body() {
                     <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
                         <h4 className="font-medium text-black items-center justify-center text-xl mt-5 mb-4">Advanced Python</h4> 
                     </div>
+                </div>
+                <h2 className="font-medium text-gray-700 text-1xl md:text-2xl mt-12 mb-5 ml-1">Extracariculars</h2>
+                <div className='grid gap-x-4 md:grid-rows-4 '>
+                    
+
+
+
                 </div>
                 <h2 className="font-medium text-gray-700 text-1xl md:text-2xl mt-12 mb-5 ml-1">Research</h2>
 
