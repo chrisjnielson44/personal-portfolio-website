@@ -13,7 +13,7 @@ export default function Experience() {
                     <div className="grid gap-8 mb-6  md:grid-rows-2 flex">
                         <div className="items-center bg-gray-50 rounded-lg shadow-xl flex  ">
                             <a href="#">
-                                <img height="80px" width="80px" className=" flex my-10 mx-5 rounded-lg sm:rounded-none sm:rounded-full" src="isofy.png" alt="logo" />
+                                <img height="80px" width="80px" className=" flex my-10 mx-5 rounded-full" src="isofy.png" alt="logo" />
                             </a>
                             <div className="p-10">
                                 <h3 className="text-sm lg:text-2xl font-bold tracking-tight text-black pb-1">Isofy</h3>
