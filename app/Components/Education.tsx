@@ -62,7 +62,7 @@ export default function Education() {
                         </div>
                         <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
                             <a href="#">
-                                <img height="50px" width="50px" className=" flex my-3 mx-5 rounded-lg sm:rounded-none sm:rounded-l-lg" src="fma.webp" alt="logo" />
+                                <img height="50px" width="50px" className="pb-2 flex my-3 mx-5 rounded-lg sm:rounded-none sm:rounded-l-lg" src="fma.webp" alt="logo" />
                             </a>
                             <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Financial Management Association (FMA)</h3>
                             <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
