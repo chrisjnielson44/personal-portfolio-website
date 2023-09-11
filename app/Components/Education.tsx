@@ -5,7 +5,7 @@ export default function Education() {
             <div className="container max-w-screen-xl mx-auto px-4">
                 <h1 className="font-bold text-gray-600  text-3xl md:text-4xl mb-5">Education</h1>
                 <div className="mb-8 h-1 bg-gray-700"></div>
-                <div className="grid gap-8 mb-6  md:grid-rows-1 flex">
+                <div className="grid gap-8 mb-6  md:grid-rows-2 flex">
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex  ">
                         <a href="#">
                             <img height="80px" width="80px" className=" flex m-10 rounded-lg sm:rounded-none sm:rounded-l-lg" src="logo.png" alt="logo" />
@@ -20,7 +20,7 @@ export default function Education() {
                     </div>
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex  ">
                         <a href="#">
-                            <img height="80px" width="80px" className=" flex m-10 rounded-lg sm:rounded-none sm:rounded-l-lg" src="fsuip.png" alt="logo" />
+                            <img height="80px" width="80px" className=" flex m-10 rounded-lg sm:rounded-none sm:rounded-full" src="fsuip.png" alt="logo" />
                         </a>
                         <div className="p-5">
                             <h3 className="text-sm lg:text-2xl font-bold tracking-tight text-black pb-1"> FSU International Program Study Abroad </h3>
