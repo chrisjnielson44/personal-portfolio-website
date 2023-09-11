@@ -28,9 +28,12 @@ export default function FrontPage() {
                                 </a>
                             </li>
                         </ul>
-                        <a href="https://chris-n.s3.us-east-2.amazonaws.com/Christopher-Nielson-Resume.pdf" target="_blank" rel="noopener noreferrer">
-                            <button className="animate-fade-up animate-ease-linear px-7 py-3 md:px-9 md:py-4 bg-white w-full font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500 shadow-xl">Get my Resume</button>
-                        </a>
+                        <div className="grid-cols-2 ">
+                            <a href="https://chris-n.s3.us-east-2.amazonaws.com/Christopher-Nielson-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                                <button className="animate-fade-up animate-ease-linear px-7 py-3 md:px-9 md:py-4 bg-white w-full font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500 shadow-xl">Get my Resume</button>
+                            </a>
+                            
+                        </div>
                         {/* <a href="https://chris-n.s3.us-east-2.amazonaws.com/Christopher-Nielson-Resume.pdf" target="_blank" rel="noopener noreferrer">
                             <button className="animate-fade-up animate-ease-linear px-7 py-3 md:px-9 md:py-4 bg-white w-1/3 font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500 shadow-xl">Get my Resume</button>
                         </a> */}

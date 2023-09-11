@@ -14,8 +14,8 @@ export default function Education() {
                             <h3 className="text-sm lg:text-2xl font-bold tracking-tight text-black pb-1">
                                 Florida State University
                             </h3>
-                            <h3 className="text-gray-900 dark:text-gray-500 text-md pb-2">2021 - 2024</h3>
-                            <span className="text-gray-900 dark:text-gray-800 text-xl ">Computer Science B.S., Minor in Business & Mathematics</span>
+                            <h3 className="text-gray-900 dark:text-gray-500 text-md pb-2">Aug. 2021 - Dec. 2024</h3>
+                            <span className="text-gray-900 dark:text-gray-800 text-lg ">Computer Science B.S., Minor in Business & Mathematics</span>
                         </div>
                     </div>
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex  ">
@@ -25,7 +25,7 @@ export default function Education() {
                         <div className="p-5">
                             <h3 className="text-sm lg:text-2xl font-bold tracking-tight text-black pb-1"> FSU International Program Study Abroad </h3>
                             <h3 className="text-gray-900 dark:text-gray-500 text-md pb-1 ">Summer of 2022</h3>
-                            <h3 className="pr-5 text-gray-900 dark:text-gray-800 text-md flex ">Completed international business and marketing courses and became more fluent in Spanish during a semester abroad in Valecnia, Spain</h3>
+                            <h3 className="pr-5 text-gray-900 dark:text-gray-800 text-lg flex ">Completed international business and marketing courses and became more fluent in Spanish during a semester abroad in Valecnia, Spain</h3>
 
                         </div>
                     </div>
@@ -52,7 +52,36 @@ export default function Education() {
                     </div>
                 </div>
                 <h2 className="font-medium text-gray-700 text-1xl md:text-2xl mt-12 mb-5 ml-1">Extracurriculars</h2>
-                <h2 className="font-medium text-gray-700 text-1xl md:text-2xl mt-12 mb-5 ml-1">Research</h2>
+                    <div className="grid gap-x-4 gap-y-8 md:grid-cols-4 text-left">
+                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                            <a href="#">
+                                <img height="50px" width="50px" className=" flex my-3 mx-5 rounded-lg sm:rounded-none sm:rounded-l-lg" src="spearDAO.png" alt="logo" />
+                            </a>
+                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Crypto Currency Club for Young Professionals (COYP)</h3>
+                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Vice President 2022-2023</h3>
+                        </div>
+                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                            <a href="#">
+                                <img height="50px" width="50px" className=" flex my-3 mx-5 rounded-lg sm:rounded-none sm:rounded-l-lg" src="fma.webp" alt="logo" />
+                            </a>
+                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Financial Management Association (FMA)</h3>
+                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
+                        </div>
+                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                            <a href="#">
+                                <img height="50px" width="50px" className=" flex my-3 mx-5 rounded-lg sm:rounded-none sm:rounded-l-lg" src="acm.png" alt="logo" />
+                            </a>
+                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Association for Computing Machinery (ACM)</h3>
+                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
+                        </div>
+                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                            <a href="#">
+                                <img height="50px" width="50px" className=" flex my-3 mx-5 rounded-lg sm:rounded-none sm:rounded-l-lg" src="SCC.jpeg" alt="logo" />
+                            </a>
+                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Securities Society</h3>
+                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
+                        </div>
+                    </div>
             </div>
         </section>
     )
