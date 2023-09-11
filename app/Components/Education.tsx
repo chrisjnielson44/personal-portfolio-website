@@ -57,7 +57,7 @@ export default function Education() {
                             <a href="#">
                                 <img height="50px" width="50px" className=" flex my-3 mx-5 rounded-lg sm:rounded-none sm:rounded-l-lg" src="spearDAO.png" alt="logo" />
                             </a>
-                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Crypto Currency Club for Young Professionals (COYP)</h3>
+                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Cryptocurrency Organization for Young Professionals (COYP)</h3>
                             <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Vice President 2022-2023</h3>
                         </div>
                         <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
