@@ -6,7 +6,7 @@ export default function Education() {
                 <h1 className="font-bold text-gray-600  text-3xl md:text-4xl mb-5">Education</h1>
                 <div className="mb-8 h-1 bg-gray-700"></div>
                 <div className="grid gap-8 mb-6  md:grid-rows-2 flex">
-                    <div className="items-center bg-gray-50 rounded-lg shadow-xl flex  ">
+                    <div className="items-center bg-gray-50 rounded-lg shadow-xl flex ">
                         <a href="#">
                             <img height="80px" width="80px" className=" flex m-10 rounded-lg sm:rounded-none sm:rounded-l-lg" src="logo.png" alt="logo" />
                         </a>
@@ -15,14 +15,14 @@ export default function Education() {
                                 Florida State University
                             </h3>
                             <h3 className="text-gray-900 dark:text-gray-500 text-md pb-2">Aug. 2021 - Dec. 2024</h3>
-                            <span className="text-gray-900 dark:text-gray-800 text-lg ">Computer Science B.S., Minor in Business & Mathematics</span>
+                            <span className="text-gray-900 dark:text-gray-800 text-lg flex">Computer Science B.S., Minor in Business & Mathematics</span>
                         </div>
                     </div>
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex  ">
                         <a href="#">
                             <img height="80px" width="80px" className=" flex m-10 rounded-lg sm:rounded-none sm:rounded-full" src="fsuip.png" alt="logo" />
                         </a>
-                        <div className="p-5">
+                        <div className="p-5 pl-9">
                             <h3 className="text-sm lg:text-2xl font-bold tracking-tight text-black pb-1"> FSU International Program Study Abroad </h3>
                             <h3 className="text-gray-900 dark:text-gray-500 text-md pb-1 ">Summer of 2022</h3>
                             <h3 className="pr-5 text-gray-900 dark:text-gray-800 text-lg flex ">Completed international business and marketing courses and became more fluent in Spanish during a semester abroad in Valecnia, Spain</h3>
