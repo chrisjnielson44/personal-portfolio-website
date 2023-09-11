@@ -8,7 +8,7 @@ export default function Education() {
                 <div className="grid gap-8 mb-6  md:grid-rows-2 flex">
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex ">
                         <a href="#">
-                            <img height="80px" width="80px" className=" flex m-10 rounded-lg" src="logo.png" alt="logo" />
+                            <img height="80px" width="80px" className=" m-10 rounded-lg" src="logo.png" alt="logo" />
                         </a>
                         <div className="p-5">
                             <h3 className="text-sm lg:text-2xl font-bold tracking-tight text-black pb-1">
