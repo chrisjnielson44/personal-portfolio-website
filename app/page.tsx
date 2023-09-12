@@ -10,8 +10,11 @@ export default function Home() {
     <div className='bg-gray-100 '>
       <FrontPage/>
       <Projects/>
+      <div className="py-20"/>
       <Education/>
+      <div className="py-20"/>
       <Research/>
+      <div className="py-20"/>
       <Experience/>
       <Footer/>
     </div>

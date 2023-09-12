@@ -1,7 +1,7 @@
 
 export default function Education() {
     return(
-        <section className="py-10 md:py-16 h-screen flex justify-center items-center">
+        <div className="h-screen flex justify-center items-center">
             <div className="container max-w-screen-xl mx-auto px-4">
                 <h1 className="font-bold text-gray-600  text-3xl md:text-4xl mb-5">Education</h1>
                 <div className="mb-8 h-1 bg-gray-700"></div>
@@ -52,37 +52,38 @@ export default function Education() {
                     </div>
                 </div>
                 <h2 className="font-medium text-gray-700 text-1xl md:text-2xl mt-12 mb-5 ml-1">Extracurriculars</h2>
-                    <div className="grid gap-x-4 gap-y-8 md:grid-cols-4 text-left">
-                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
-                            <a href="#">
-                                <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full" src="spearDAO.png" alt="logo" />
-                            </a>
-                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Cryptocurrency Organization for Young Professionals (COYP)</h3>
-                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Vice President 2022-2023</h3>
-                        </div>
-                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
-                            <a href="#">
-                                <img height="50px" width="50px" className="shadow-sm pb-2 flex my-3 mx-5 rounded-full " src="fma.webp" alt="logo" />
-                            </a>
-                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Financial Management Association (FMA)</h3>
-                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
-                        </div>
-                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
-                            <a href="#">
-                                <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full" src="acm.png" alt="logo" />
-                            </a>
-                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Association for Computing Machinery (ACM)</h3>
-                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
-                        </div>
-                        <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
-                            <a href="#">
-                                <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full " src="SCC.jpeg" alt="logo" />
-                            </a>
-                            <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Securities Society</h3>
-                            <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
-                        </div>
+                <div className="grid gap-x-4 gap-y-8 md:grid-cols-4 text-left">
+                    <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                        <a href="#">
+                            <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full" src="spearDAO.png" alt="logo" />
+                        </a>
+                        <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Cryptocurrency Organization for Young Professionals (COYP)</h3>
+                        <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Vice President 2022-2023</h3>
                     </div>
+                    <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                        <a href="#">
+                            <img height="50px" width="50px" className="shadow-sm pb-2 flex my-3 mx-5 rounded-full " src="fma.webp" alt="logo" />
+                        </a>
+                        <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Financial Management Association (FMA)</h3>
+                        <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
+                    </div>
+                    <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                        <a href="#">
+                            <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full" src="acm.png" alt="logo" />
+                        </a>
+                        <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Association for Computing Machinery (ACM)</h3>
+                        <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
+                    </div>
+                    <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl">
+                        <a href="#">
+                            <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full " src="SCC.jpeg" alt="logo" />
+                        </a>
+                        <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1">Securities Society</h3>
+                        <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2">Member - Present</h3>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
+        
     )
 }

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Projects() {
     return(
-        <section className="py-10 md:py-16 h-screen flex justify-center items-center snap-center">
+        <section className="py-10  h-screen flex justify-center items-center snap-center">
             <div className="container max-w-screen-xl mx-auto px-4">
                 <h1 className="font-bold text-gray-700 text-3xl md:text-4xl mb-5">Projects</h1>
                 <div className="mb-8 h-1 bg-gray-700"></div>
