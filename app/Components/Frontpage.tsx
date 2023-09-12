@@ -4,7 +4,7 @@ export default function FrontPage() {
         <section className="py-10 md:py-16 h-screen flex justify-center items-center">
             <div className="container max-w-screen-xl mx-auto px-4 mt-20 ">
                 <div className=" flex flex-col md:flex-row justify-left items-center md:items-start mb-5">
-                    <img src="home-image.jpg" className="animate-fade-right animate-ease-linear grayscale shadow-2xl rounded-2xl  md:mr-12 lg:h-23 w-auto " alt="Image" />
+                    <img src="home-image.jpg" className="animate-fade-right  grayscale shadow-2xl rounded-2xl  md:mr-12 lg:h-23 w-auto " alt="Image" />
                     <div className=" ">
                         <h6 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-5">Christopher Nielson</h6>
                         <h1 className="font-normal text-gray-900 text-4xl md:text-5xl leading-none mb-5">Computer Science Student</h1>
@@ -35,7 +35,7 @@ export default function FrontPage() {
                         </ul>
                         <div className=" ">
                             <a href="https://chris-n.s3.us-east-2.amazonaws.com/Christopher-Nielson-Resume.pdf" target="_blank" rel="noopener noreferrer">
-                                <button className="animate-fade-up animate-ease-linear px-7 py-3 md:px-9 md:py-4 bg-white w-full font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500 shadow-xl">Get my Resume</button>
+                                <button className="animate-fade-up  px-7 py-3 md:px-9 md:py-4 bg-white w-full font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500 shadow-xl">Get my Resume</button>
                             </a>
                             
                         </div>

@@ -7,16 +7,23 @@ import Footer from "./Components/Footer"
 
 export default function Home() {
   return (
-    <div className='bg-gray-100 '>
-      <FrontPage/>
-      <Projects/>
-      <div className="py-20"/>
-      <Education/>
-      <div className="py-20"/>
-      <Research/>
-      <div className="py-20"/>
-      <Experience/>
-      <Footer/>
+    <div className='bg-gray-100'>
+      <div className="">
+        <FrontPage/>
+      </div>
+      <div className="py-20 snap-center">
+        <Projects/>
+      </div>
+      <div className="py-20 snap-center">
+        <Education/>
+      </div>
+      <div className="py-20 snap-center">
+        <Research/>
+      </div>
+      <div className="">
+        <Experience/>
+        <Footer/>
+      </div>
     </div>
   )
 }
