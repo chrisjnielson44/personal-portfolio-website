@@ -4,7 +4,7 @@ export default function Projects() {
         <section className="py-10 flex justify-center items-center snap-center lg:h-screen" id='projects'>
             <div className="container max-w-screen-xl mx-auto px-4">
                 <h1 className="font-bold text-gray-700 text-3xl md:text-4xl mb-5 dark:text-gray-100">Projects</h1>
-                <div className="mb-8 h-1 bg-gray-700"></div>
+                <div className="mb-8 h-1 bg-gray-700 dark:bg-gray-400"></div>
                 <p className="font-normal text-gray-500 text-xs md:text-base mb-10"></p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  ">
                     <div className="bg-gray-50 px-8 py-8 rounded-lg drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">

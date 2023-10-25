@@ -4,7 +4,7 @@ export default function Education() {
         <div className="flex justify-center items-center md:h-screen">
             <div className="container max-w-screen-xl mx-auto px-4">
                 <h1 className="font-bold text-gray-600  text-3xl md:text-4xl mb-5 dark:text-gray-100">Education</h1>
-                <div className="mb-8 h-1 bg-gray-700"></div>
+                <div className="mb-8 h-1 bg-gray-700 dark:bg-gray-400"></div>
                 <div className="grid gap-8 mb-6  md:grid-rows-2 flex">
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex dark:bg-gray-800 dark:ring-1 dark:ring-white">
                     <div className="mr-4 flex-shrink-0 self-center">
