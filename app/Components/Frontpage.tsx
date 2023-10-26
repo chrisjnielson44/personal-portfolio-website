@@ -11,7 +11,7 @@ export default function FrontPage() {
                         </div>
                         <div className=" ">
                             <h6 className="font-medium text-gray-600 text-xl text-center md:text-2xl md:text-left uppercase mb-5 dark:text-white ">Christopher Nielson</h6>
-                            <h1 className="font-normal text-gray-900 text-4xl text-center md:text-5xl md:text-left leading-none mb-5 dark:text-gray-200">Computer Science Student</h1>
+                            <h1 className="font-normal text-gray-900 text-4xl text-center md:text-5xl md:text-left leading-none mb-5 dark:text-gray-200">CS Student @ FSU</h1>
                             <p className="font-normal text-gray-600 text-md text-center md:text-left md:text-xl mb-7 dark:text-white">Driven by a deep passion for financial technology and proficient in Python, Java, and C++, my career objective is to secure an internship or career opportunity where I can apply my technical skills and knowledge. With a strong commitment to professional growth, I aim to contribute to the success of an innovative organization in the fintech industry. I am a dedicated and proactive individual, constantly seeking opportunities to expand my expertise and stay at the forefront of industry trends.</p>
 
                             <ul className="flex space-x-5 mt-0 mb-9 flex items-center justify-center md:items-start md:justify-start">
