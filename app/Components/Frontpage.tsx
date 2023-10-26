@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 
 export default function FrontPage() {
@@ -8,7 +7,7 @@ export default function FrontPage() {
                 <div className="container max-w-screen-xl px-4 py-8 mx-auto mt-20 ">
                     <div className="sm:flex">
                         <div className="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4 flex items-center justify-center">
-                            <img src="home-image.jpg" className="animate-fade-right  grayscale shadow-2xl rounded-2xl h-13 w-auto md:mr-12 lg:h-23 w-auto" alt="Image" />
+                            <Image src="/chris.png" className="animate-fade-right  grayscale shadow-2xl rounded-2xl md:mr-12 lg:h-23" alt="Image" height={300} width={300} />
                         </div>
                         <div className=" ">
                             <h6 className="font-medium text-gray-600 text-xl text-center md:text-2xl md:text-left uppercase mb-5 dark:text-white ">Christopher Nielson</h6>
@@ -48,6 +47,15 @@ export default function FrontPage() {
                             <button className="animate-fade-up animate-ease-linear px-7 py-3 md:px-9 md:py-4 bg-white w-1/3 font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500 shadow-xl">Get my Resume</button>
                         </a> */}
                         </div>
+                    </div>
+
+                    <div className="scroll-down-arrow pb-20 flex items-center justify-center flex-col hidden md:flex">
+
+                        <a href='#projects'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-auto h-20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </section>

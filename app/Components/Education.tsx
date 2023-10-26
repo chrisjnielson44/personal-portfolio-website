@@ -30,7 +30,7 @@ export default function Education() {
                         </div>
                     </div>
                 </div>
-                <h2 className="font-medium text-gray-700 text-xl md:text-2xl mt-12 mb-5 ml-1 dark:text-gray-100">Notable Course Work</h2>
+                <h2 className="font-medium text-gray-700 text-xl md:text-3xl mt-12 mb-5 ml-1 dark:text-gray-100">Notable Course Work</h2>
                 <div className="grid gap-x-4 gap-y-8 md:grid-cols-3 text-center">
                     <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <h4 className="font-medium text-black items-center justify-center text-xl mt-5 mb-4 dark:text-white">Data Structures and Algorithims </h4>
@@ -51,7 +51,7 @@ export default function Education() {
                         <h4 className="font-medium text-black items-center justify-center text-xl mt-5 mb-4 dark:text-white">Advanced Python</h4>
                     </div>
                 </div>
-                <h2 className="font-medium text-gray-700 text-xl md:text-2xl mt-12 mb-5 ml-1 dark:text-gray-100">Extracurriculars</h2>
+                <h2 className="font-medium text-gray-700 text-xl md:text-3xl mt-12 mb-5 ml-1 dark:text-gray-100">Extracurriculars</h2>
                 <div className="grid gap-x-4 gap-y-8 md:grid-cols-4 text-left">
                     <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="#">
