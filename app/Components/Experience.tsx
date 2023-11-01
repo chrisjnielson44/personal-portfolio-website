@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Experience() {
     return (
         <div>
@@ -7,10 +9,12 @@ export default function Experience() {
                     <div className="mb-8 h-1 bg-gray-700 dark:bg-gray-400"></div>
                     <div className="sm:flex shadow-xl bg-white rounded-lg p-10 dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <div className="mb-4 flex-shrink-0 sm:mb-0 sm:mr-6 ">
-                            <img
-                                className="h-16 w-16 rounded-full bg-white text-gray-300 ring-1 ring-gray-400 dark:ring-white"
-                                src="isofy.png"
+                            <Image
+                                className="rounded-full bg-white text-gray-300 ring-1 ring-gray-400 dark:ring-white"
+                                src="/isofy.png"
                                 alt="logo"
+                                height={50}
+                                width={50}
                             />
                         </div>
                         <div>

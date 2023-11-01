@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 export default function Education() {
     return (
         <div className="flex justify-center items-center md:h-screen">
@@ -8,7 +8,7 @@ export default function Education() {
                 <div className="grid gap-8 mb-6  md:grid-rows-2 flex">
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex dark:bg-gray-800 dark:ring-1 dark:ring-white">
                     <div className="mr-4 flex-shrink-0 self-center">
-                            <img height="80px" width="80px" className=" m-10 rounded-lg" src="logo.png" alt="logo" />
+                            <Image height={80} width={80} className=" m-10 rounded-lg" src="/logo.png" alt="logo" />
                     </div>
                         <div className="p-5">
                             <h3 className="text-md lg:text-2xl font-bold tracking-tight text-black pb-1 dark:text-white">
@@ -20,7 +20,7 @@ export default function Education() {
                     </div>
                     <div className="items-center bg-gray-50 rounded-lg shadow-xl flex dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <div className="mr-4 flex-shrink-0 self-center">
-                            <img height="80px" width="80px" className=" flex m-8 rounded-full" src="fsuip.png" alt="logo" />
+                            <Image height={80} width={80} className=" flex m-8 rounded-full" src="/fsuip.png" alt="logo" />
                         </div>
                         <div className="p-5 pl-9">
                             <h3 className="text-md lg:text-2xl font-bold tracking-tight text-black pb-1 dark:text-white"> FSU International Program Study Abroad </h3>
@@ -55,28 +55,28 @@ export default function Education() {
                 <div className="grid gap-x-4 gap-y-8 md:grid-cols-4 text-left">
                     <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="#">
-                            <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full" src="spearDAO.png" alt="logo" />
+                            <Image height={50} width={50} className="shadow-sm flex my-3 mx-5 rounded-full" src="/spearDAO.png" alt="logo" />
                         </a>
                         <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1 dark:text-white">Cryptocurrency Organization for Young Professionals (COYP)</h3>
                         <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2 dark:text-white">Vice President 2022-2023</h3>
                     </div>
                     <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white" >
                         <a href="#">
-                            <img height="50px" width="50px" className="shadow-sm pb-2 flex my-3 mx-5 rounded-full " src="fma.webp" alt="logo" />
+                            <Image height={50} width={50} className="shadow-sm pb-2 flex my-3 mx-5 rounded-full " src="/fma.webp" alt="logo" />
                         </a>
                         <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1 dark:text-white">Financial Management Association (FMA)</h3>
                         <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2 dark:text-white">Member - Present</h3>
                     </div>
                     <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="#">
-                            <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full" src="acm.png" alt="logo" />
+                            <Image height={50} width={50} className="shadow-sm flex my-3 mx-5 rounded-full" src="/acm.png" alt="logo" />
                         </a>
                         <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1 dark:text-white">Association for Computing Machinery (ACM)</h3>
                         <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2 dark:text-white">Member - Present</h3>
                     </div>
                     <div className="bg-gray-50 px-2 py-2 rounded-md drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="#">
-                            <img height="50px" width="50px" className="shadow-sm flex my-3 mx-5 rounded-full " src="SCC.jpeg" alt="logo" />
+                            <Image height={50} width={50} className="shadow-sm flex my-3 mx-5 rounded-full " src="/SCC.jpeg" alt="logo" />
                         </a>
                         <h3 className="mx-5 text-sm lg:text-lg font-bold tracking-tight text-black pb-1 dark:text-white">Securities Society</h3>
                         <h3 className="mx-5 mb-2 text-gray-900 dark:text-gray-500 text-md pb-2 dark:text-white">Member - Present</h3>

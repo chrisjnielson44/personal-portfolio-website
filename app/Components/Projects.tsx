@@ -1,3 +1,4 @@
+import Image from 'next/image'
 
 export default function Projects() {
     return (
@@ -44,7 +45,7 @@ export default function Projects() {
                     </div>
                     <div className="bg-gray-50 px-8 py-8 rounded-lg drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="https://www.internationalfansmedia.com" target="_blank" rel="noopener noreferrer">
-                            <img className="rounded-full p-2 border-2 shadow-lg bg-white" src="RMLogo.png" alt="logo" height="70px" width="70px"></img>
+                            <Image className="rounded-full p-2 border-2 shadow-lg bg-white" src="/RMLogo.png" alt="logo" height={70} width={70}></Image>
                         </a>
                         <a href="https://www.internationalfansmedia.com" target="_blank" rel="noopener noreferrer">
                             <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4 dark:text-white">International Fan Media</h4>
@@ -78,7 +79,7 @@ export default function Projects() {
                     </div>
                     <div className="bg-gray-50 px-8 py-8 rounded-lg drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="https://cjnielson.com" target="_blank" rel="noopener noreferrer" className="">
-                            <img className="border-2 rounded-full grayscale shadow-lg" src="smallprof.png" alt="logo" height="70px" width="70px"></img>
+                            <Image className="border-2 rounded-full grayscale shadow-lg" src="/smallprof.png" alt="logo" height={70} width={70}></Image>
                         </a>
                         <a href="https://cjnielson.com" target="_blank" rel="noopener noreferrer" className="">
                             <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4 dark:text-white">Personal Porfolio Website</h4>
@@ -103,7 +104,7 @@ export default function Projects() {
                     </div>
                     <div className="bg-gray-50 px-8 py-8 rounded-lg drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="https://github.com/chrisjnielson44/AI-Chatbot" target="_blank" rel="noopener noreferrer" className="">
-                            <img className="p-3 rounded-full  shadow-lg border-2 bg-white" src="chatgpt.png" alt="logo" height="70px" width="70px"></img>
+                            <Image className="p-3 rounded-full  shadow-lg border-2 bg-white" src="/chatgpt.png" alt="logo" height={70} width={70}></Image>
                         </a>
                         <a href="https://github.com/chrisjnielson44/AI-Chatbot" target="_blank" rel="noopener noreferrer" className="">
                             <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4 dark:text-white">AI Chatbot</h4>
@@ -127,7 +128,7 @@ export default function Projects() {
                     </div>
                     <div className="bg-gray-50 px-8 py-8 rounded-lg drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="https://github.com/chrisjnielson44/weather-bot" target="_blank" rel="noopener noreferrer" className="">
-                            <img className="p-3 rounded-full  shadow-lg border-2 bg-white" src="weatherbot.png" alt="logo" height="70px" width="70px"></img>
+                            <Image className="p-3 rounded-full  shadow-lg border-2 bg-white" src="/weatherbot.png" alt="logo" height={70} width={70}></Image>
                         </a>
                         <a href="https://github.com/chrisjnielson44/weather-bot" target="_blank" rel="noopener noreferrer" className="">
                             <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4 dark:text-white">Weather Bot</h4>
@@ -148,7 +149,7 @@ export default function Projects() {
                     </div>
                     <div className="bg-gray-50 px-8 py-8 rounded-lg drop-shadow-xl dark:bg-gray-800 dark:ring-1 dark:ring-white">
                         <a href="https://github.com/chrisjnielson44/wordOfTheDay-bot" target="_blank" rel="noopener noreferrer" className="">
-                            <img className="rounded-full  shadow-lg border-2 p-2 bg-white" src="wordoftheday.png" alt="logo" height="70px" width="70px"></img>
+                            <Image className="rounded-full  shadow-lg border-2 p-2 bg-white" src="/wordoftheday.png" alt="logo" height={70} width={70}></Image>
                         </a>
                         <a href="https://github.com/chrisjnielson44/wordOfTheDay-bot" target="_blank" rel="noopener noreferrer" className="">
                             <h4 className="font-bold text-gray-700 text-lg mt-5 mb-2 hover:underline underline-offset-4 dark:text-white">Word of The Day</h4>
